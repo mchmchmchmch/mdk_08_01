@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+h1{
+    font-family: 'Comfortaa'; font-weight: 700; 
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: -0.03em;
+}
+h2{
+    font-family: 'Comfortaa'; font-weight: 600;
+    font-size: 2em;
+}
+body{
+    font-family: 'Comfortaa'; font-weight: 400;
+    text-align: center;
+}
+nav{
+    text-align: left;
+    padding: 1em 1em;
+    color: white;
+    background-color: silver;
+    
+}
+a{
+    padding: 0.3em;
+    text-decoration: none;
+    
+}
+body{
+    padding: 1em 3em;
+    font-size: 1.2em;
+}
+header{
+    background-color: silver;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+prakt{
+    text-align: center
+}
+
+a {color:black;}
+a:visited {color:black;}
+a:hover {color:gray;}
+a:active {color: gray;}
