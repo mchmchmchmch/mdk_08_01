@@ -6,7 +6,7 @@
 @font-face {
     font-family: 'RFDewi';
     font-weight: bold;
-    src: url("../fonts/rf/RFDewiExtended-Black.woff2") format('woff2'), 
+    src: url("../fonts/RF/RFDewiExtended-Black.woff2") format('woff2'), 
 }
 
 html, body {
@@ -155,4 +155,58 @@ footer {
 
 .prakt{
     color: black;
+}
+
+.news {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.news-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.more {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.news-title {
+    font-size: 1.3em;
+}
+
+.news-article {
+    filter: drop-shadow(2px 2px 35px #a5a5a5);
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    transition: all ease 0.3s;
+}
+.news-article-main {
+    filter: drop-shadow(2px 2px 35px #a5a5a5);
+    padding: 20px;
+    width: 500px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    transition: all ease 0.3s;
+}
+
+.news-article:hover {
+    transform: scale(1.05);
+    margin-right: calc(2% + 3px);
+    margin-left: 2%;
+}
+.news-article-main:hover {
+    transform: scale(1.05);
+    margin-right: calc(2% + 3px);
+    margin-left: 2%;
 }

@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'RFDewi';
+    font-weight: normal;
+    src: url("../../../../fonts/RF/RFDewiExtended-Light.woff2") format('woff2'), 
+}
+@font-face {
+    font-family: 'RFDewi';
+    font-weight: bold;
+    src: url("../../../../fonts/RF/RFDewiExtended-Black.woff2") format('woff2'), 
+}
+
+body {
+    font-family: 'RFDewi';
+}
+
+.text {
+    padding: 20px;
+}
+
 .wraper{
     width: 60%;
     margin: 0 auto;
@@ -21,7 +40,6 @@ main li, main li a{
 main li a{
     text-decoration: none;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 16px;
     padding: 20px;
@@ -43,6 +61,25 @@ p{
 p a {
     font-weight: bold;
 }
+
+nav li {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    box-sizing: border-box;
+    height: 100%;
+    cursor: pointer;
+    padding: 0 25px;
+    line-height: 50px; 
+    transition: all ease 0.3s;
+}
+
+nav li:hover {
+    background: rgb(255, 255, 255);
+    color: orange;
+}
+
 footer nav {
     text-align: center;
     margin: 20px 0;
@@ -51,7 +88,24 @@ footer li a{
     color: #9b6100;
     text-decoration: none;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     padding: 0 10px;
+}
+
+.nav-bottom li {
+    font-size: 14px;
+    text-decoration: none;
+    color: #9b6100;
+    font-weight: bold;
+    box-sizing: border-box;
+    height: 100%;
+    cursor: pointer;
+    padding: 0 25px;
+    line-height: 50px; 
+    transition: all ease 0.3s;
+}
+
+.nav-bottom li:hover {
+    color: orange;
+    font-size: 1.1em;
 }
