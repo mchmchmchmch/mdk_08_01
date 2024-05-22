@@ -1,0 +1,17 @@
+.box {
+    background: #2db34a;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    width: 95px;
+    transition: filter 2.5s ease-in-out;
+}
+
+.box:hover {
+    filter: blur(10px);
+  }
+  
+  .box:not(:hover) {
+    filter: blur(0px);
+  }

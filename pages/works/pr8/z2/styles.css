@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'RFDewi';
     font-weight: normal;
-    src: url("../fonts/RF/RFDewiExtended-Light.woff2") format('woff2'),
+    src: url("../../../../fonts/RF/RFDewiExtended-Light.woff2") format('woff2'),
 }
 
 @font-face {
     font-family: 'RFDewi';
     font-weight: bold;
-    src: url("../fonts/RF/RFDewiExtended-Black.woff2") format('woff2'),
+    src: url("../../../../fonts/RF/RFDewiExtended-Black.woff2") format('woff2'),
 }
 
 html, body {
     font-family: 'RFDewi';
-    background-color: rgb(255, 242, 237);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 0;
     margin: 0;
@@ -73,7 +73,6 @@ main {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    min-height: calc(100% - 50px - 34px);
 }
 
 .work-list {
@@ -285,4 +284,9 @@ footer {
 .nav-8 nav a:hover {
     background: rgb(255, 242, 237);
     color: rgb(0, 0, 0);
+}
+
+.footer-8{
+    padding: 60px;
+    line-height: 3
 }
