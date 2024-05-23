@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Sans';
+    font-weight: bold;
+    src: url("../../../fonts/RF/RFDewi-Black.woff2") format('woff2'),
+}
+
+body {
+    font-family: 'Sans';
+    background-color: rgb(35, 151, 167);
+}
+
+.text {
+    padding: 10px;
+    color: white;
+}
+
+.products {
+    width: 50%;
+    display: flex;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.product_container {
+    color: white;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.product_image {
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.buy {
+    color: rgb(143, 143, 143);
+    font-size: 1.4em;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.price_panel {
+    display: flex;
+    justify-content: space-between
+}
+
+.quantity {
+    float: right;
+    padding-right: 10px;
+}
+
+.total {
+    color: rgb(93, 197, 29);
+    font-size: 0.6em;
+}
+
+input {
+    align-items: center;
+    margin-right: 20px;
+    width: 30px;
+}
+
+.button_purchase{
+    padding-bottom: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.purchase {
+    color: white;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: 'Sans';
+    background-color: rgb(93, 197, 29);
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+}
