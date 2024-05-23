@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'RFDewi';
+    font-weight: normal;
+    src: url("../../../fonts/RF/RFDewiExtended-Light.woff2") format('woff2'),
+}
+
+@font-face {
+    font-family: 'RFDewi';
+    font-weight: bold;
+    src: url("../../../fonts/RF/RFDewiExtended-Black.woff2") format('woff2'),
+}
+
 ul {
     list-style-type: none;
     padding-left: 0;
@@ -53,10 +65,47 @@ div.non {
     border-color: rgb(255, 77, 77);
 }
 
+.post1, .post2 {
+    background-color: #930303;
+    color: white;
+}
+
 .post1 .image {
     float: left;
+    margin: 2px;
+    margin-right: 20px;
 }
 
 .post2 .image {
     float: right;
+    margin: 2px;
+    margin-left: 20px;
 }
+
+.w_container {
+    display: flex;
+  }
+  
+  .weather-container {
+    width: 11.11%;
+    background-color: #ffffff; /* бирюзовый цвет */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .date-header {
+    color: white;
+    background-color: #40e0d0; /* бирюзовый цвет */
+    padding: 1px;
+    text-align: center;
+  }
+  
+  .weather-image {
+    width: 100%;
+  }
+  
+  .temperature {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
