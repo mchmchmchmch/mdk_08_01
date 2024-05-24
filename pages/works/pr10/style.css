@@ -1,84 +1,87 @@
 @font-face {
-    font-family: 'Sans';
-    font-weight: bold;
-    src: url("fonts/MicrosoftSansSerif.woff2") format('woff2'),
+  font-family: "Sans";
+  font-weight: bold;
+  src: url("fonts/MicrosoftSansSerif.woff2") format("woff2");
 }
 
-body{
-    font-family: 'Sans';
-    margin: 0;
+body {
+  font-family: "Sans";
+  margin: 0 auto;
+  width: 90%;
 }
 
 h1 {
-    font-size: 6em;
-    text-align: center;
-    line-height: 0px;
+  font-size: 6em;
+  text-align: center;
+  line-height: 0px;
 }
 h2 {
-    text-align: center;
-    font-size: 1em;
+  text-align: center;
+  font-size: 1em;
 }
 
 footer {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    display: flex;
-    padding: 20px;
-    margin-top: 40px;
-  }
+  display: flex;
+  padding: 20px;
+  margin-top: 40px;
+}
 
-  .container2 {
-    display: flex;
-    padding: 20px;
-  }
-  
-  .title, .text, .image {
-    flex: 1;
-    padding: 30px;
-  }
-  
-  .title {
-    font-size: 3em;
-    font-weight: bold;
-    margin-left: 100px;
-  }
+.container2 {
+  display: flex;
+  padding: 20px;
+}
 
-  .image_1 {
-    width: 400px;
-    margin-right: 150px;
-  }
-  .image_2 {
-    margin-top: 100px;
-    width: 100%;
-    margin-bottom: 50px;
-  }
+.title,
+.text,
+.image {
+  flex: 1;
+  padding: 30px;
+}
 
-  .footer_container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .text_2_container {
-    display: flex;
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%);
-    gap: 400px;
-  }
-  
-  .text_2 {
-    font-weight: bolder;
-    font-size: 5em;
-    color: white;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
+.title {
+  font-size: 3em;
+  font-weight: bold;
+  margin-left: 100px;
+}
 
-  .text_2_under {
-    font-size: 15px;
-    text-align: center;
-    font-weight: lighter;
-  }
+.image_1 {
+  width: 400px;
+  margin-right: 150px;
+}
+.image_2 {
+  margin-top: 100px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.footer_container {
+  position: relative;
+  display: inline-block;
+}
+
+.text_2_container {
+  display: flex;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%);
+  gap: 400px;
+}
+
+.text_2 {
+  font-weight: bolder;
+  font-size: 5em;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.text_2_under {
+  font-size: 15px;
+  text-align: center;
+  font-weight: lighter;
+}
