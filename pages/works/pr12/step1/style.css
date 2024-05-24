@@ -1,7 +1,17 @@
 @media screen and (min-width: 480px) and (max-width: 800px) {
   .content {
-    background-color: rgb(197, 24, 24);
+    background: rgb(84, 223, 107);
   }
+}
+
+@font-face {
+  font-family: "RFDewi";
+  font-weight: normal;
+  src: url("../../../../fonts/RF/RFDewiExtended-Bold.woff2") format("woff2");
+}
+
+body {
+  font-family: "RFDewi";
 }
 
 * {
